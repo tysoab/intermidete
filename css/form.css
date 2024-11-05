@@ -1,0 +1,89 @@
+/* set universal property */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #00c9a7;
+}
+
+.container {
+  border: 0px solid #ffffff;
+  width: 250px;
+  background-color: #12192c;
+  margin: 80px auto;
+  padding: 16px 2%;
+  border-radius: 4px;
+}
+
+.section-heading {
+  color: #ecf0ec;
+  text-align: center;
+  font-size: 1.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+  margin: 30px 0;
+}
+
+.form-control {
+  border: 1.5px solid #ececec;
+  border-radius: 4px;
+  padding: 6px;
+  margin-bottom: 20px;
+
+  /* flex */
+  display: flex;
+  column-gap: 10px;
+}
+
+.form-control i {
+  color: #ecf0ec;
+}
+
+.form-control input {
+  flex: 1;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  font-size: 17px;
+  color: #ecf0ec;
+}
+
+input::placeholder {
+  color: #ecf0ec;
+}
+
+.forgot-password {
+  color: #06af93;
+  text-decoration: none;
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 20px;
+  margin-top: -15px;
+}
+
+.control-action button {
+  background-color: #00c9a7;
+  border: 0;
+  padding: 10px 20px;
+  width: 100%;
+  color: #ecf0ec;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.not-member {
+  color: #ecf0ec;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.not-member a {
+  color: #00c9a7;
+  text-decoration: none;
+}
